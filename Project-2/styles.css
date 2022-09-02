@@ -1,0 +1,13 @@
+.body {
+    margin: 20px;
+    text-align: justify;
+}
+h1, h3 {
+    color: white;
+    background-color: black;
+}
+
+.item {
+    width: 25%;
+    margin: 20px auto;
+}
