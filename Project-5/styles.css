@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+}
+
+.header {
+display: flex;
+justify-content: space-between;
+padding: 50px;
+position: fixed;
+width: 100%;
+top: 0px;
+/*left: 0px;*/
+font-size: 40px;
+background-color: white;
+
+/*background: linear-gradient(white, pink);*/
+}
+
+ul {
+color: red;
+}
+.links {
+display: flex;
+/*justify-content: space-between;
+align-items: center;
+/*width: 500px;*/
+list-style: none;
+cursor: pointer;
+
+color: red;
+}
+
+.links li {
+    margin-left: 50px;
+}
+
+li:hover {
+text-decoration: underline;
+}
+
+.overlay {
+height: 950px;
+display: flex;
+align-items: center;
+justify-content: center;
+background-image: url('pic.jpg');
+background-size: cover;
+
+color: red;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 1040px; 
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 20px auto; /* Выравниваем по центру */ 
+    border-radius: 20px;
+    border: 2px solid pink;
+}
+
+/*.images {
+    display: flex;
+    justify-content: center;
+    align-items: column;
+}*/
+
+.bottles {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    text-align: center;
+}
+.footer {
+    padding: 50px;
+    
+    text-align: left;
+    background-color: pink;
+    color: white;
+    font-size: 40px;
+        
+
+}
+
+.second {
+    flex-direction: row;
+}
